@@ -123,7 +123,7 @@ CSG.toGeometry = function(csg, buffered=true) {
                 vs.push(new THREE.Vector3().copy(pvs[j].pos))
 
             for (let j = 3; j <= pvlen; j++) {
-                let fc = new THREE.Face3();
+                let fc = new THREE.Vector3();
                 let fuv = []
                 fvuv.push(fuv)
                 let fnml = fc.vertexNormals;
